@@ -1,0 +1,82 @@
+body, html{
+    height: 100%;
+}
+body {
+    background-image: url("image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    }
+
+div.login{
+    color: white;
+    background-color: rgba(100, 100, 100, 0.7);
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 0 0 20px black;
+    }
+div.rejestracja{
+    color: white;
+    background-color: rgba(100, 100, 100, 0.7);
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 0 0 20px black;
+    }
+p{
+    font-size: 15px;
+    font-weight: normal;
+    }
+a{
+    color: lightseagreen;
+}
+input[type=text], input[type=password], input[type=email] {
+    border: 2px solid gray;
+    height: 30px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    }
+input[type=submit]{
+    background-color: lightseagreen;
+    color: white;
+    padding: 5px;
+    height: 40px;
+    width: 300px;
+    border: 2px solid gray;
+    cursor: pointer;
+    opacity: 1.0;
+    }
+div.dashboard{
+    text-align: center;
+    font-size: 26px;
+    position: absolute;
+    color: white;
+    font-family: Arial;
+    top: 35%;
+    left: 40%;
+}

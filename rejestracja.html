@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Rejestracja</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <script src="js/logowanie.js"></script>
+</head>
+<body>
+  <form name="rejestracja" method="POST" onsubmit="passCheck()">
+    <div class="rejestracja">
+    <h3>Rejestracja</h3>
+        <label>Imię</label>
+        <br>
+        <input type="text" id="imie" name="imie" required/>
+        <br>
+        <label>Nazwisko</label>
+        <br>
+        <input type="text" id="nazwisko" name="nazwisko" required/>
+        <br>
+        <label>Nazwa użytkownika</label>
+        <br>
+        <input type="text" id="uzytkownik" name="uzytkownik" required/>
+        <br>
+        <label>Hasło</label>
+        <br>
+        <input type="password" id="haslo" name="haslo" required/>
+        <br>
+        <label>Powtórz Hasło</label>
+        <br>
+        <input type="password" id="haslo2" name="haslo2" required/>
+        <br>
+        <label>Adres email</label>
+        <br>
+        <input type="email" id="email" name="email" required/>
+        <br>
+      <p>Masz już konto? <a href="login.html">Zaloguj się</a></p>
+      <input type="submit" value="Zarejestruj" name="button"/>
+    </div>
+  </form>
+</body>
+</html>
